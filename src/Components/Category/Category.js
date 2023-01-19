@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import CategoryCard from './CategoryCard';
 
 const Category = () => {
 
@@ -6,14 +7,22 @@ const Category = () => {
    const [loading, setLoading] = useState(false);
 //   console.log(productsAll)
 useEffect(()=>{
-  fetch('https://github.com/amirhossainbond/BD-Resturant/blob/main/public/Data/Category.json')
+  fetch('https://raw.githubusercontent.com/amirhossainbond/BD-Resturant/main/public/Data/Category.json')
   .then(res=>res.json())
-  .then(data=>console.log(data))
+  .then(data=>setProducts(data))
 },[])
 
     return (
-        <div>
-            <h2>This is category </h2>
+        <div className="secend-div">
+            <h2>This is category {products.length} </h2>
+         <div className="card-category container gx-10">
+         {
+            products.map(product =><CategoryCard 
+            products={product}
+            ></CategoryCard>)
+           }
+          
+         </div>
         </div>
     );
 };

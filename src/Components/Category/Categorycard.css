@@ -1,0 +1,16 @@
+.img-card{
+    height:200px;
+    width: auto;
+}
+
+.card-category{
+display: grid;
+grid-template-columns:repeat(3, 1fr);
+
+}
+
+.secend-div{
+    background-image: url('https://i.pinimg.com/564x/e6/7d/af/e67daf68a6e8f6d4a9283cb7d64b098c.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
