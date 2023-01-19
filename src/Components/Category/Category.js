@@ -6,7 +6,7 @@ const Category = () => {
    const [loading, setLoading] = useState(false);
 //   console.log(productsAll)
 useEffect(()=>{
-  fetch('')
+  fetch('https://github.com/amirhossainbond/BD-Resturant/blob/main/public/Data/Category.json')
   .then(res=>res.json())
   .then(data=>console.log(data))
 },[])
