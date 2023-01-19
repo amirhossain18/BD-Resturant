@@ -1,0 +1,27 @@
+.homeTop{
+    background-image: url("https://i.ibb.co/KNz0VWm/hotel-breakfast-room-service.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.homeTop{
+    height: 600px;
+}
+
+.textHome{
+    height: 600px;
+    position: relative;
+ 
+}
+.textHome h1{
+    color:red;
+}
+
+.btnHome {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
