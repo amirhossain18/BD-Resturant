@@ -10,7 +10,9 @@ grid-template-columns:repeat(3, 1fr);
 }
 
 .secend-div{
-    background-image: url('https://i.pinimg.com/564x/e6/7d/af/e67daf68a6e8f6d4a9283cb7d64b098c.jpg');
+    background-image: url('https://i.ibb.co/mt8zxLq/pngwing-com-2.png');
+    background-color: #ECECF1;
     background-repeat: no-repeat;
     background-size: cover;
+    /* background-position: top 50px */
 }

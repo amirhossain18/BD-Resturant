@@ -13,8 +13,9 @@ useEffect(()=>{
 },[])
 
     return (
-        <div className="secend-div">
-            <h2>This is category {products.length} </h2>
+      <div>
+          <div className="secend-div">
+            <h2 className="text-center text-danger">Hot category </h2>
          <div className="card-category container gx-10">
          {
             products.map(product =><CategoryCard 
@@ -24,6 +25,7 @@ useEffect(()=>{
           
          </div>
         </div>
+      </div>
     );
 };
 
